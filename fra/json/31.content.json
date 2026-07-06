@@ -28,18 +28,18 @@
 "preferred_label": "Abdias"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "place:Edom",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Édom"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 }
 ]
 }
@@ -89,11 +89,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "alliance"
+"preferred_label": "état intact"
 },
 {
 "id": "keyterm:Understanding",
@@ -103,11 +103,11 @@
 "preferred_label": "comprehension"
 },
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "état intact"
+"preferred_label": "alliance"
 },
 {
 "id": "realia:Trap",
@@ -302,11 +302,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "déposséder"
+"preferred_label": "Jérusalem"
 },
 {
 "id": "person:Israel",
@@ -316,11 +316,11 @@
 "preferred_label": "Israël"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Dispossess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "déposséder"
 }
 ]
 }
@@ -346,6 +346,13 @@
 ],
 "resource": [],
 "acai": [
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Édom"
+},
 {
 "id": "group:Edom",
 "type": "group",
@@ -373,13 +380,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israël"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Édom"
 }
 ]
 }
@@ -406,11 +406,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
+"id": "person:Ephraim",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "déposséder"
+"preferred_label": "Éphraïm"
 },
 {
 "id": "place:Samaria",
@@ -420,11 +420,39 @@
 "preferred_label": "Samarie"
 },
 {
-"id": "place:Gilead",
+"id": "place:Shephelah",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Galaad"
+"preferred_label": "Shephelah"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "déposséder"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Philistia"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éphraïm"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Philistins"
 },
 {
 "id": "person:Benjamin",
@@ -441,6 +469,13 @@
 "preferred_label": "montagne d'Ésaü"
 },
 {
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Galaad"
+},
+{
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.6,
@@ -448,46 +483,11 @@
 "preferred_label": "Benjamin"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éphraïm"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éphraïm"
-},
-{
 "id": "place:Negeb",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Negev"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Philistins"
-},
-{
-"id": "place:Shephelah",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Shephelah"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Philistia"
 }
 ]
 }
@@ -514,11 +514,11 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "Jérusalem"
 },
 {
 "id": "place:EsauMount",
@@ -528,11 +528,11 @@
 "preferred_label": "montagne d'Ésaü"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "Éternel"
 }
 ]
 }
