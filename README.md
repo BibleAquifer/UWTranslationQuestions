@@ -8,6 +8,10 @@ _unfoldingWord® Translation Questions_ © 2022 [unfoldingWord](https://unfoldin
 
 This resource is licensed under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) license.
 
+**unfoldingWord® Translation Questions** © 2022 unfoldingWord. Released under CC BY\-SA 4\.0 license. *unfoldingWord® Translation Questions* has been adapted in the following languages: Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文) from *unfoldingWord® Translation Questions* © 2022 unfoldingWord. Released under CC BY\-SA 4\.0 license by Mission Mutual
+
+
+
 ## Structure
 
 The repository is organized by language codes, with each language folder containing subfolders for JSON and Markdown content.
