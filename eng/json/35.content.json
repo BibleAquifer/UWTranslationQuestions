@@ -343,13 +343,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Dragnet",
-"type": "realia",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "Dragnet"
-},
-{
 "id": "realia:CastingNet",
 "type": "realia",
 "confidence": 0.74,
@@ -357,11 +350,11 @@
 "preferred_label": "Casting Net"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Dragnet",
 "type": "realia",
-"confidence": 0.54,
+"confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Harpoon"
+"preferred_label": "Dragnet"
 },
 {
 "id": "realia:Net",
@@ -369,6 +362,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Net"
+},
+{
+"id": "realia:Harpoon",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Harpoon"
 }
 ]
 }
@@ -395,13 +395,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Dragnet",
-"type": "realia",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "Dragnet"
-},
-{
 "id": "realia:CastingNet",
 "type": "realia",
 "confidence": 0.74,
@@ -409,11 +402,11 @@
 "preferred_label": "Casting Net"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Dragnet",
 "type": "realia",
-"confidence": 0.54,
+"confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Harpoon"
+"preferred_label": "Dragnet"
 },
 {
 "id": "realia:Net",
@@ -421,6 +414,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Net"
+},
+{
+"id": "realia:Harpoon",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Harpoon"
 }
 ]
 }
@@ -730,18 +730,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "keyterm:Woe.2",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Woe"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "LORD"
 }
 ]
 }
@@ -837,18 +837,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Disgraced",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Be Disgraced"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "LORD"
+},
+{
+"id": "keyterm:Disgraced",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Be Disgraced"
 },
 {
 "id": "keyterm:Glory",
@@ -896,13 +896,6 @@
 "preferred_label": "Trust"
 },
 {
-"id": "realia:GravenImage",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Graven Image"
-},
-{
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.54,
@@ -915,6 +908,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Image"
+},
+{
+"id": "realia:GravenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Graven Image"
 }
 ]
 }
@@ -1238,39 +1238,11 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Fig"
-},
-{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Vine"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Cattle"
 },
 {
 "id": "realia:AnimalPen",
@@ -1280,11 +1252,18 @@
 "preferred_label": "Animal Pen"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "Goat"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Cattle"
 },
 {
 "id": "realia:Sheepfold",
@@ -1292,6 +1271,27 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Sheepfold"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Fig"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }

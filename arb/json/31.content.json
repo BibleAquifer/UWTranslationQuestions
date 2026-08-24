@@ -96,18 +96,18 @@
 "preferred_label": "Understanding"
 },
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Peace"
-},
-{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Covenant"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Peace"
 },
 {
 "id": "realia:Trap",
@@ -302,6 +302,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Dispossess"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.6,
@@ -314,13 +321,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "إِسْرَائِيلَ"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
 }
 ]
 }
@@ -347,6 +347,13 @@
 "resource": [],
 "acai": [
 {
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Edomites"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -354,18 +361,11 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "place:Edom",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "أَدومَ"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Edomites"
+"preferred_label": "إِسْرَائِيلَ"
 },
 {
 "id": "person:Joseph.10",
@@ -375,11 +375,11 @@
 "preferred_label": "يوسف"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "place:Edom",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "إِسْرَائِيلَ"
+"preferred_label": "أَدومَ"
 }
 ]
 }
@@ -406,11 +406,11 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Philistine",
+"id": "place:Samaria",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلْفِلِسْطِينِيِّينَ"
+"preferred_label": "ٱلسَّامِرَةِ"
 },
 {
 "id": "place:Gilead",
@@ -420,32 +420,25 @@
 "preferred_label": "جِلْعَادَ"
 },
 {
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "بَنْيَامِينَ"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَفْرَايِمَ"
+},
+{
 "id": "place:EsauMount",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "عِيسو"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "place:Shephelah",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلسَّهْلِ"
-},
-{
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ٱلْجَنوبِ"
 },
 {
 "id": "group:Ephraim",
@@ -455,25 +448,18 @@
 "preferred_label": "أَفْرَايِمَ"
 },
 {
-"id": "place:Samaria",
+"id": "place:Negeb",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلسَّامِرَةِ"
+"preferred_label": "ٱلْجَنوبِ"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "keyterm:Dispossess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "بَنْيَامِينَ"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "بَنْيَامِينَ"
+"preferred_label": "Dispossess"
 },
 {
 "id": "group:Philistine",
@@ -483,11 +469,25 @@
 "preferred_label": "فِلِشْتِيم"
 },
 {
-"id": "person:Ephraim",
-"type": "person",
+"id": "group:Benjamin",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "أَفْرَايِمَ"
+"preferred_label": "بَنْيَامِينَ"
+},
+{
+"id": "place:Shephelah",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلسَّهْلِ"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلْفِلِسْطِينِيِّينَ"
 }
 ]
 }
@@ -521,18 +521,18 @@
 "preferred_label": "عِيسو"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "أورشَلِيمَ"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أورشَلِيمَ"
 }
 ]
 }
