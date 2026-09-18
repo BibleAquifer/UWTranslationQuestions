@@ -89,6 +89,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "état intact"
+},
+{
 "id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.6,
@@ -101,13 +108,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "alliance"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "état intact"
 },
 {
 "id": "realia:Trap",
@@ -210,15 +210,15 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Juda"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Juda"
@@ -347,18 +347,18 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Joseph"
 },
 {
 "id": "person:Israel",
@@ -368,11 +368,11 @@
 "preferred_label": "Israël"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
+"id": "group:Edom",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Joseph"
+"preferred_label": "Édom"
 },
 {
 "id": "place:Edom",
@@ -406,53 +406,11 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Samaria",
+"id": "place:Philistine",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Samarie"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Galaad"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Benjamin"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éphraïm"
-},
-{
-"id": "place:EsauMount",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "montagne d'Ésaü"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Éphraïm"
-},
-{
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Negev"
+"preferred_label": "Philistia"
 },
 {
 "id": "keyterm:Dispossess",
@@ -462,15 +420,29 @@
 "preferred_label": "déposséder"
 },
 {
-"id": "group:Philistine",
-"type": "group",
+"id": "place:Gilead",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Philistins"
+"preferred_label": "Galaad"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Negev"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Samarie"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Benjamin"
@@ -483,11 +455,39 @@
 "preferred_label": "Shephelah"
 },
 {
-"id": "place:Philistine",
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éphraïm"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Benjamin"
+},
+{
+"id": "place:EsauMount",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Philistia"
+"preferred_label": "montagne d'Ésaü"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Philistins"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Éphraïm"
 }
 ]
 }
@@ -514,11 +514,11 @@
 "resource": [],
 "acai": [
 {
-"id": "place:EsauMount",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "montagne d'Ésaü"
+"preferred_label": "Jérusalem"
 },
 {
 "id": "deity:Lord",
@@ -528,11 +528,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "place:Jerusalem",
+"id": "place:EsauMount",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "montagne d'Ésaü"
 }
 ]
 }
