@@ -66,15 +66,15 @@
 "preferred_label": "ٱلْبَعْلِ"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "يَهوذَا"
@@ -201,18 +201,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
 "id": "keyterm:Deceit",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Deceit"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Appoint"
 },
 {
 "id": "realia:House",
@@ -336,6 +336,13 @@
 "preferred_label": "Appoint"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أورشَلِيمَ"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -348,13 +355,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Men"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "أورشَلِيمَ"
 },
 {
 "id": "realia:Wine",
@@ -547,18 +547,11 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Ashdod",
+"id": "place:Gaza",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "أَشْدودَ"
-},
-{
-"id": "place:Ekron",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "عَقْرونَ"
+"preferred_label": "غَزَّةَ"
 },
 {
 "id": "place:Ashkelon",
@@ -568,11 +561,18 @@
 "preferred_label": "أَشْقَلونَ"
 },
 {
-"id": "place:Gaza",
+"id": "place:Ekron",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "غَزَّةَ"
+"preferred_label": "عَقْرونَ"
+},
+{
+"id": "place:Ashdod",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "أَشْدودَ"
 }
 ]
 }
@@ -599,13 +599,6 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Ammonites"
-},
-{
 "id": "place:Ammon",
 "type": "place",
 "confidence": 0.6,
@@ -613,18 +606,18 @@
 "preferred_label": "ٱلْعَمّونِيِّينَ"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Ammon",
+"type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "Ammonites"
 },
 {
-"id": "place:Gomorrah",
+"id": "place:Sodom",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "عَمورَةَ"
+"preferred_label": "سَدومَ"
 },
 {
 "id": "place:Moab",
@@ -641,11 +634,18 @@
 "preferred_label": "إِسْرَائِيلَ"
 },
 {
-"id": "place:Sodom",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "place:Gomorrah",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "سَدومَ"
+"preferred_label": "عَمورَةَ"
 },
 {
 "id": "flora:Nettle",
@@ -686,25 +686,18 @@
 "preferred_label": "Owl"
 },
 {
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Doorstep"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Crow"
 },
 {
 "id": "fauna:Jackdaw",
@@ -721,18 +714,25 @@
 "preferred_label": "Window"
 },
 {
-"id": "fauna:Crow",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Crow"
-},
-{
 "id": "realia:Capital",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Capital"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Doorstep"
 }
 ]
 }
