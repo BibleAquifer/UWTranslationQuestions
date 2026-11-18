@@ -21,18 +21,18 @@
 "resource": [],
 "acai": [
 {
+"id": "place:Dizahab",
+"type": "place",
+"confidence": 0.8,
+"match_method": "canonical",
+"preferred_label": "Di-Zaabe"
+},
+{
 "id": "place:Hazeroth",
 "type": "place",
 "confidence": 0.8,
 "match_method": "canonical",
 "preferred_label": "Hazerote"
-},
-{
-"id": "place:Laban",
-"type": "place",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Labão"
 },
 {
 "id": "place:Suph",
@@ -42,32 +42,18 @@
 "preferred_label": "Sufe"
 },
 {
-"id": "place:Dizahab",
-"type": "place",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Di-Zaabe"
-},
-{
 "id": "place:Tophel",
 "type": "place",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Tophel"
+"preferred_label": "Tofel"
 },
 {
-"id": "place:Jordan",
+"id": "place:Laban",
 "type": "place",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Jordan River"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moisés"
+"preferred_label": "Labã"
 },
 {
 "id": "person:Israel",
@@ -77,18 +63,32 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Arabah",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Arabá"
-},
-{
 "id": "place:Paran",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Parã"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Rio Jordão"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "place:Arabah",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Arabá"
 }
 ]
 }
@@ -115,18 +115,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Moses",
@@ -160,25 +160,11 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "swear"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dispossess"
 },
 {
 "id": "person:Israel",
@@ -188,11 +174,25 @@
 "preferred_label": "Israel"
 },
 {
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "jurar"
+},
+{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Abraão"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "desapossar"
 },
 {
 "id": "person:Isaac",
@@ -295,25 +295,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "fear"
-},
-{
-"id": "place:Kadesh-barnea",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Cades-Barneia"
-},
-{
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Amorites"
+"preferred_label": "amorreus"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "place:SinaiMount",
@@ -323,11 +316,18 @@
 "preferred_label": "Monte Sinai"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Temor"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Cades-Barneia"
 }
 ]
 }
@@ -411,14 +411,14 @@
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "trigo"
 },
 {
 "id": "flora:Sorghum",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Sorghum"
+"preferred_label": "sorgo"
 }
 ]
 }
@@ -445,18 +445,18 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Egito"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "amorreus"
 },
 {
 "id": "deity:Lord",
@@ -470,7 +470,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Tent"
+"preferred_label": "tenda"
 }
 ]
 }
@@ -501,14 +501,14 @@
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Anakim"
+"preferred_label": "enaquins"
 },
 {
 "id": "person:Anak",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Anaque"
+"preferred_label": "Enaque"
 }
 ]
 }
@@ -553,7 +553,7 @@
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 }
 ]
 }
@@ -652,7 +652,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "desapossar"
 }
 ]
 }
@@ -727,7 +727,7 @@
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Cattails"
+"preferred_label": "taboa"
 }
 ]
 }
@@ -765,7 +765,7 @@
 "type": "group",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Edomites"
+"preferred_label": "edomitas"
 },
 {
 "id": "place:Seir",
@@ -779,7 +779,14 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "fazer possuir"
 },
 {
 "id": "place:SeirMount",
@@ -787,13 +794,6 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Monte Seir"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
 }
 ]
 }
@@ -824,7 +824,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Dinheiro"
 }
 ]
 }
@@ -858,13 +858,6 @@
 "preferred_label": "Ar"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -872,18 +865,25 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Lot",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Ló"
+"preferred_label": "Moabe"
 },
 {
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
+"preferred_label": "fazer possuir"
+},
+{
+"id": "person:Lot",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Ló"
 }
 ]
 }
@@ -937,7 +937,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Complete"
+"preferred_label": "íntegro"
 }
 ]
 }
@@ -982,7 +982,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
+"preferred_label": "fazer possuir"
 }
 ]
 }
@@ -1013,7 +1013,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 }
 ]
 }
@@ -1040,25 +1040,25 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
+"id": "person:Sihon",
+"type": "person",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "peace"
+"preferred_label": "Seom"
 },
 {
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Um Anjo"
 },
 {
-"id": "person:Sihon",
-"type": "person",
+"id": "keyterm:IntactState",
+"type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Seom"
+"preferred_label": "paz"
 },
 {
 "id": "place:Kedemoth",
@@ -1122,13 +1122,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Jahaz",
 "type": "place",
 "confidence": 0.375,
@@ -1141,6 +1134,13 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Seom"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -1171,7 +1171,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "to proscribe"
+"preferred_label": "destruir totalmente"
 }
 ]
 }
@@ -1205,18 +1205,18 @@
 "preferred_label": "Ogue"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Basã"
-},
-{
 "id": "place:Edrei",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Edrei"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Basã"
 }
 ]
 }
@@ -1270,7 +1270,7 @@
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
 }
 ]
 }
@@ -1318,55 +1318,6 @@
 "preferred_label": "Aroer"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Basã"
-},
-{
-"id": "group:Reuben",
-"type": "group",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Rúben"
-},
-{
-"id": "group:Manasseh",
-"type": "group",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Manassés"
-},
-{
-"id": "group:Rephaim",
-"type": "group",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Rephaim"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "dispossess"
-},
-{
-"id": "person:Gad",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Gade"
-},
-{
-"id": "place:Arnon",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Arnom"
-},
-{
 "id": "person:Reuben",
 "type": "person",
 "confidence": 0.375,
@@ -1381,11 +1332,60 @@
 "preferred_label": "Manassés"
 },
 {
+"id": "group:Rephaim",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "refains"
+},
+{
+"id": "group:Manasseh",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "tribo de Manassés"
+},
+{
+"id": "person:Gad",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Gade"
+},
+{
 "id": "person:Og",
 "type": "person",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Ogue"
+},
+{
+"id": "group:Reuben",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "tribo de Rúben"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "desapossar"
+},
+{
+"id": "place:Arnon",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Arnom"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Basã"
 }
 ]
 }
@@ -1412,13 +1412,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -1430,7 +1423,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "desapossar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -1457,32 +1457,32 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
+"preferred_label": "fazer possuir"
 },
 {
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "desapossar"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Rio Jordão"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -1520,7 +1520,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 }
 ]
 }
@@ -1547,18 +1547,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
-},
-{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Libano"
+"preferred_label": "Líbano"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Rio Jordão"
 }
 ]
 }
@@ -1627,7 +1627,7 @@
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Rio Jordão"
 }
 ]
 }
@@ -1696,14 +1696,7 @@
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "decree"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Decreto"
 },
 {
 "id": "person:Israel",
@@ -1717,7 +1710,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "desapossar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -1871,14 +1871,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
 },
 {
 "id": "realia:Tablet",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Tablet"
+"preferred_label": "tábua"
 }
 ]
 }
@@ -1928,18 +1928,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "forçar a servir"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "be enticed to serve"
 }
 ]
 }
@@ -2143,25 +2143,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:MiraculousSign",
-"type": "keyterm",
-"confidence": 0.8,
-"match_method": "canonical",
-"preferred_label": "Miraculous Sign"
-},
-{
 "id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "example"
+"preferred_label": "símbolo"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:MiraculousSign",
 "type": "keyterm",
-"confidence": 0.6,
+"confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "sinal miraculoso"
 },
 {
 "id": "deity:Lord",
@@ -2176,6 +2169,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Egito"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Temor"
 }
 ]
 }
@@ -2237,28 +2237,14 @@
 "type": "keyterm",
 "confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "love"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "fazer possuir"
 },
 {
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "strength"
+"preferred_label": "força"
 },
 {
 "id": "place:Egypt",
@@ -2266,6 +2252,20 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Egito"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "desapossar"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "amor"
 }
 ]
 }
@@ -2292,18 +2292,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
-},
-{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "evil intention"
+"preferred_label": "intenção"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Rio Jordão"
 },
 {
 "id": "person:Moses",
@@ -2429,18 +2429,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Egito"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -2536,18 +2536,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:PronounceInnocent",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "declarar inocente"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:PronounceInnocent",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "pronounce innocent"
 }
 ]
 }
@@ -2585,35 +2585,35 @@
 "type": "keyterm",
 "confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "sabbath"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "be enticed to serve"
+"preferred_label": "sábado"
 },
 {
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "santo"
 },
 {
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.24,
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "forçar a servir"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "jumento"
 }
 ]
 }
@@ -2640,13 +2640,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
@@ -2654,11 +2647,18 @@
 "preferred_label": "Egito"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "sabbath"
+"preferred_label": "sábado"
 }
 ]
 }
@@ -2685,18 +2685,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "granjear honra e glória para si mesmo"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
 }
 ]
 }
@@ -2757,7 +2757,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Tablet"
+"preferred_label": "tábua"
 }
 ]
 }
@@ -2903,7 +2903,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 }
 ]
 }
@@ -2930,13 +2930,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -2948,7 +2941,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "land flowing of milk and honey"
+"preferred_label": "Terra que mana leite e mel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -2979,7 +2979,7 @@
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "love"
+"preferred_label": "amor"
 },
 {
 "id": "deity:Lord",
@@ -3017,7 +3017,7 @@
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 }
 ]
 }
@@ -3120,13 +3120,6 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.425,
-"match_method": "canonical",
-"preferred_label": "Faraó"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.425,
@@ -3134,39 +3127,46 @@
 "preferred_label": "Egito"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2625,
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.425,
 "match_method": "canonical",
-"preferred_label": "swear"
-},
-{
-"id": "keyterm:MiraculousSign",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Miraculous Sign"
-},
-{
-"id": "keyterm:Precept",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "precept"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "decree"
+"preferred_label": "Faraó"
 },
 {
 "id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "example"
+"preferred_label": "símbolo"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "jurar"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Decreto"
+},
+{
+"id": "keyterm:MiraculousSign",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "sinal miraculoso"
+},
+{
+"id": "keyterm:Precept",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "preceito"
 }
 ]
 }
@@ -3243,7 +3243,21 @@
 "type": "keyterm",
 "confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "to proscribe"
+"preferred_label": "destruir totalmente"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "aliança"
+},
+{
+"id": "keyterm:KindlyDisposed",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "ter compaixão"
 },
 {
 "id": "deity:Lord",
@@ -3251,20 +3265,6 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
-"id": "keyterm:KindlyDisposed",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "be kindly disposed"
 }
 ]
 }
@@ -3341,21 +3341,21 @@
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Well-Established"
+"preferred_label": "firme"
 },
 {
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "kindness"
+"preferred_label": "Bondade"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "love"
+"preferred_label": "aliança"
 },
 {
 "id": "deity:Lord",
@@ -3365,11 +3365,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "amor"
 }
 ]
 }
@@ -3400,35 +3400,14 @@
 "type": "keyterm",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "jurar"
 },
 {
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.415,
 "match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "love"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "kindness"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "cereal"
 },
 {
 "id": "deity:Lord",
@@ -3438,88 +3417,109 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.315,
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Bondade"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.315,
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "amor"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "oliveira"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "óleo da unção"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "rebanho"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "bode"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "videira"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "azeite de oliva"
 },
 {
 "id": "flora:Sorghum",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Sorghum"
+"preferred_label": "sorgo"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "gado"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "trigo"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "Mosto"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "mula"
 }
 ]
 }
@@ -3546,13 +3546,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "fear"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5,
@@ -3560,25 +3553,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Dispossess",
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.5,
+"match_method": "canonical",
+"preferred_label": "Temor"
+},
+{
+"id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "dispossess"
-},
-{
-"id": "keyterm:MiraculousSign",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Miraculous Sign"
-},
-{
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Faraó"
+"preferred_label": "símbolo"
 },
 {
 "id": "place:Egypt",
@@ -3588,11 +3574,25 @@
 "preferred_label": "Egito"
 },
 {
-"id": "keyterm:Example",
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Faraó"
+},
+{
+"id": "keyterm:MiraculousSign",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "example"
+"preferred_label": "sinal miraculoso"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "desapossar"
 }
 ]
 }
@@ -3896,13 +3896,6 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Egito"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -3910,32 +3903,39 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.315,
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Egito"
 },
 {
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "rebanho"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "bode"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "Dinheiro"
 }
 ]
 }
@@ -3966,28 +3966,28 @@
 "type": "fauna",
 "confidence": 0.415,
 "match_method": "canonical",
-"preferred_label": "Scorpion"
+"preferred_label": "escorpião"
 },
 {
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "fear"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Snake"
+"preferred_label": "Temor"
 },
 {
 "id": "fauna:Viper",
 "type": "fauna",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Viper"
+"preferred_label": "víbora"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "serpente"
 }
 ]
 }
@@ -4025,7 +4025,7 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "be enticed to serve"
+"preferred_label": "forçar a servir"
 }
 ]
 }
@@ -4052,13 +4052,6 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -4070,7 +4063,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "desapossar"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Rio Jordão"
 }
 ]
 }
@@ -4097,18 +4097,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "desapossar"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dispossess"
 }
 ]
 }
@@ -4135,18 +4135,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "desapossar"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dispossess"
 }
 ]
 }
@@ -4219,6 +4219,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "aliança"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4226,18 +4233,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
 "id": "realia:Tablet",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Tablet"
+"preferred_label": "tábua"
 }
 ]
 }
@@ -4268,14 +4268,14 @@
 "type": "realia",
 "confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "Imagem de metal fundido"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:TheWay",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "O Caminho"
 },
 {
 "id": "place:Egypt",
@@ -4285,11 +4285,11 @@
 "preferred_label": "Egito"
 },
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -4362,6 +4362,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Pecar"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -4369,18 +4376,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "realia:Tablet",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Tablet"
+"preferred_label": "tábua"
 }
 ]
 }
@@ -4449,14 +4449,14 @@
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
 },
 {
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "Imagem de metal fundido"
 }
 ]
 }
@@ -4494,7 +4494,7 @@
 "type": "keyterm",
 "confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "rebel"
+"preferred_label": "rebelar-se"
 },
 {
 "id": "place:Taberah",
@@ -4515,7 +4515,14 @@
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Believe In"
+"preferred_label": "crer em"
+},
+{
+"id": "place:Massah",
+"type": "place",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Massá"
 },
 {
 "id": "place:Kadesh-barnea",
@@ -4529,14 +4536,7 @@
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "dispossess"
-},
-{
-"id": "place:Massah",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Massá"
+"preferred_label": "desapossar"
 }
 ]
 }
@@ -4613,21 +4613,21 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant Box"
+"preferred_label": "arca da aliança"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Arca da Aliança"
 },
 {
 "id": "realia:Tablet",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Tablet"
+"preferred_label": "tábua"
 }
 ]
 }
@@ -4688,21 +4688,21 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "realia:Tablet",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Tablet"
+"preferred_label": "arca da aliança"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Arca da Aliança"
+},
+{
+"id": "realia:Tablet",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "tábua"
 }
 ]
 }
@@ -4752,34 +4752,6 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -4791,14 +4763,42 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribo de Levi"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "arca da aliança"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Levi"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Arca da Aliança"
 }
 ]
 }
@@ -4863,20 +4863,6 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "fear"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "love"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.375,
@@ -4888,14 +4874,28 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "O Caminho"
 },
 {
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "be enticed to serve"
+"preferred_label": "forçar a servir"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Temor"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "amor"
 }
 ]
 }
@@ -4956,7 +4956,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "love"
+"preferred_label": "amor"
 }
 ]
 }
@@ -5052,13 +5052,6 @@
 "resource": [],
 "acai": [
 {
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Mar Vermelho"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -5073,25 +5066,32 @@
 "preferred_label": "Egito"
 },
 {
+"id": "place:RedSea",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Mar Vermelho"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "carro de guerra"
 },
 {
 "id": "flora:Cattails",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Cattails"
+"preferred_label": "taboa"
 },
 {
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "cavalo"
 }
 ]
 }
@@ -5313,7 +5313,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 }
 ]
 }
@@ -5344,7 +5344,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
 }
 ]
 }
@@ -5371,25 +5371,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Dispossess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "desapossar"
 },
 {
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Rio Jordão"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -5416,6 +5416,20 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "desapossar"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "forçar a servir"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -5423,25 +5437,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dispossess"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "be enticed to serve"
-},
-{
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "pinheiro-manso"
 }
 ]
 }
@@ -5537,25 +5537,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Safety",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "segurança"
 },
 {
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Rio Jordão"
 },
 {
-"id": "keyterm:Safety",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Safety"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -5586,28 +5586,21 @@
 "type": "fauna",
 "confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Gazelle"
+"preferred_label": "gazela"
 },
 {
 "id": "fauna:Deer",
 "type": "fauna",
 "confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Deer"
+"preferred_label": "veado"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "defilement"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "puro"
 },
 {
 "id": "deity:Lord",
@@ -5617,11 +5610,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "pure"
+"preferred_label": "abençoar"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "contaminação"
 }
 ]
 }
@@ -5694,13 +5694,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Levi.3",
 "type": "person",
 "confidence": 0.6,
@@ -5712,7 +5705,14 @@
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Levi"
+"preferred_label": "tribo de Levi"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -5800,25 +5800,25 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "rebanho"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "bode"
 }
 ]
 }
@@ -5868,18 +5868,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Vow",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "fazer um voto"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Vow",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "make a vow"
 }
 ]
 }
@@ -6029,11 +6029,11 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:TheWay",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "O Caminho"
 },
 {
 "id": "place:Egypt",
@@ -6047,14 +6047,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "comprar"
+"preferred_label": "resgatar"
 },
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -6104,18 +6104,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Egito"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -6169,21 +6169,21 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "to proscribe"
+"preferred_label": "destruir totalmente"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
 },
 {
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "espada"
 }
 ]
 }
@@ -6291,21 +6291,21 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "defilement"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "contaminação"
 },
 {
 "id": "fauna:Pig",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Pig"
+"preferred_label": "porco"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "chacal"
 }
 ]
 }
@@ -6359,7 +6359,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "defilement"
+"preferred_label": "contaminação"
 }
 ]
 }
@@ -6386,6 +6386,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6393,25 +6400,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "bode"
 },
 {
 "id": "fauna:Kid",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Kid"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Cabrito"
 }
 ]
 }
@@ -6438,6 +6438,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -6445,25 +6452,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.6,
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "bode"
 },
 {
 "id": "fauna:Kid",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Kid"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Cabrito"
 }
 ]
 }
@@ -6494,14 +6494,14 @@
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Coriander"
+"preferred_label": "coentro"
 },
 {
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cevada"
 }
 ]
 }
@@ -6562,14 +6562,14 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Dinheiro"
 }
 ]
 }
@@ -6596,13 +6596,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
 "id": "person:Levi.3",
 "type": "person",
 "confidence": 0.6,
@@ -6614,7 +6607,14 @@
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Levi"
+"preferred_label": "tribo de Levi"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "fazer possuir"
 }
 ]
 }
@@ -6641,27 +6641,6 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -6669,11 +6648,32 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "tribo de Levi"
+},
+{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
+"preferred_label": "fazer possuir"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Levi"
 }
 ]
 }
@@ -6800,18 +6800,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
 }
 ]
 }
@@ -6869,18 +6869,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Wickedness",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "maldade"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Wickedness",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "wickedness"
 }
 ]
 }
@@ -6976,13 +6976,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
@@ -6994,7 +6987,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "comprar"
+"preferred_label": "resgatar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -7044,25 +7044,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "forçar a servir"
 },
 {
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "be enticed to serve"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -7192,28 +7192,28 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "passover"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Páscoa"
 },
 {
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "rebanho"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "bode"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
 }
 ]
 }
@@ -7286,13 +7286,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
@@ -7304,7 +7297,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "passover"
+"preferred_label": "Páscoa"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -7331,13 +7331,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
@@ -7349,7 +7342,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "passover"
+"preferred_label": "Páscoa"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -7387,7 +7387,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "pão sem fermento"
 }
 ]
 }
@@ -7425,7 +7425,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "pão sem fermento"
 }
 ]
 }
@@ -7456,21 +7456,7 @@
 "type": "keyterm",
 "confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "feast of weeks"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "offering"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "Festa das Semanas"
 },
 {
 "id": "deity:Lord",
@@ -7480,18 +7466,32 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "oferta"
+},
+{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Sickle"
+"preferred_label": "foice"
 },
 {
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "cereal"
 }
 ]
 }
@@ -7522,7 +7522,21 @@
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "feast of weeks"
+"preferred_label": "Festa das Semanas"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "oferta"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "abençoar"
 },
 {
 "id": "deity:Lord",
@@ -7530,20 +7544,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "offering"
 }
 ]
 }
@@ -7597,21 +7597,21 @@
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "feast of tabernacles"
+"preferred_label": "Festa dos Tabernáculos"
 },
 {
 "id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Winepress"
+"preferred_label": "lagar"
 },
 {
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Threshing Floor"
+"preferred_label": "eira"
 }
 ]
 }
@@ -7642,7 +7642,14 @@
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "feast of weeks"
+"preferred_label": "Festa das Semanas"
+},
+{
+"id": "keyterm:FeastOfTabernacles",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Festa dos Tabernáculos"
 },
 {
 "id": "deity:Lord",
@@ -7652,18 +7659,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:FeastOfTabernacles",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "feast of tabernacles"
-},
-{
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "pão sem fermento"
 }
 ]
 }
@@ -7767,18 +7767,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "desapossar"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dispossess"
 }
 ]
 }
@@ -7816,7 +7816,7 @@
 "type": "realia",
 "confidence": 0.415,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
+"preferred_label": "poste sagrado"
 },
 {
 "id": "deity:Asherah",
@@ -7826,39 +7826,39 @@
 "preferred_label": "Aserá"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "altar"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "altar de pedra"
 },
 {
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "altar do tabernáculo"
 },
 {
 "id": "realia:SacredPillar",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Sacred Pillar"
+"preferred_label": "coluna sagrada"
 },
 {
-"id": "realia:Altar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "altar do templo"
 }
 ]
 }
@@ -8046,18 +8046,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -8134,7 +8134,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Dinheiro"
 }
 ]
 }
@@ -8218,28 +8218,7 @@
 "type": "keyterm",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "offering"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Levi"
+"preferred_label": "fazer possuir"
 },
 {
 "id": "person:Israel",
@@ -8247,6 +8226,27 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "oferta"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "tribo de Levi"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Levi"
 }
 ]
 }
@@ -8277,84 +8277,84 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "slaughtering"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "sacrifício de animais"
 },
 {
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "cereal"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "oliveira"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "óleo da unção"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "rebanho"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "bode"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "videira"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "azeite de oliva"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "gado"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "mula"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "Cordeiro"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "Mosto"
 }
 ]
 }
@@ -8435,25 +8435,25 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:FeeForDivination",
-"type": "keyterm",
-"confidence": 0.3667,
-"match_method": "canonical",
-"preferred_label": "Fee for Divination"
-},
-{
 "id": "keyterm:PracticeDivination",
 "type": "keyterm",
 "confidence": 0.3667,
 "match_method": "canonical",
-"preferred_label": "practice divination"
+"preferred_label": "praticar adivinhação"
 },
 {
 "id": "keyterm:Spirit",
 "type": "keyterm",
 "confidence": 0.3667,
 "match_method": "canonical",
-"preferred_label": "spirit"
+"preferred_label": "necromante"
+},
+{
+"id": "keyterm:FeeForDivination",
+"type": "keyterm",
+"confidence": 0.3667,
+"match_method": "canonical",
+"preferred_label": "Paga de adivinhação"
 },
 {
 "id": "deity:Lord",
@@ -8614,14 +8614,14 @@
 "type": "keyterm",
 "confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "desapossar"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 }
 ]
 }
@@ -8809,13 +8809,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "fear"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -8830,18 +8823,25 @@
 "preferred_label": "Egito"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Temor"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "carro de guerra"
 },
 {
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "cavalo"
 }
 ]
 }
@@ -8868,13 +8868,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3,
@@ -8882,11 +8875,18 @@
 "preferred_label": "Israel"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 }
 ]
 }
@@ -8917,14 +8917,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "dedicate"
+"preferred_label": "dedicar"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 }
 ]
 }
@@ -8955,7 +8955,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 }
 ]
 }
@@ -8986,14 +8986,14 @@
 "type": "keyterm",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "peace"
+"preferred_label": "paz"
 },
 {
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "be enticed to serve"
+"preferred_label": "forçar a servir"
 }
 ]
 }
@@ -9031,7 +9031,7 @@
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "espada"
 }
 ]
 }
@@ -9065,18 +9065,53 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Proscribe.2",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "to proscribe"
+"preferred_label": "destruir totalmente"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "amorreus"
+},
+{
+"id": "group:Canaan",
+"type": "group",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "cananeus"
+},
+{
+"id": "group:Hivites",
+"type": "group",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Heveus"
+},
+{
+"id": "group:Hittite",
+"type": "group",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Hititas"
+},
+{
+"id": "group:Perizzites",
+"type": "group",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "ferezeus"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "fazer possuir"
 },
 {
 "id": "place:Canaan",
@@ -9086,32 +9121,18 @@
 "preferred_label": "Canaã"
 },
 {
-"id": "group:Amorites",
-"type": "group",
+"id": "keyterm:Sin",
+"type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Amorites"
+"preferred_label": "Pecar"
 },
 {
-"id": "group:Hivites",
+"id": "group:Jebusites",
 "type": "group",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Hivites"
-},
-{
-"id": "group:Canaan",
-"type": "group",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "cananeu"
-},
-{
-"id": "group:Hittite",
-"type": "group",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Hittites"
+"preferred_label": "jebuseus"
 },
 {
 "id": "person:Heth",
@@ -9119,27 +9140,6 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Hete"
-},
-{
-"id": "group:Perizzites",
-"type": "group",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Perizzites"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "group:Jebusites",
-"type": "group",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Jebusites"
 }
 ]
 }
@@ -9170,28 +9170,28 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "state of being under siege"
+"preferred_label": "sob cerco"
 },
 {
 "id": "realia:Siege-works",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Siege-Works"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Siege Tower"
+"preferred_label": "obras de cerco"
 },
 {
 "id": "realia:Axe",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Axe"
+"preferred_label": "machado"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "torre de cerco"
 }
 ]
 }
@@ -9218,18 +9218,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "desapossar"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "dispossess"
 }
 ]
 }
@@ -9375,7 +9375,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Dinheiro"
 }
 ]
 }
@@ -9406,7 +9406,7 @@
 "type": "keyterm",
 "confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "love"
+"preferred_label": "amor"
 }
 ]
 }
@@ -9490,7 +9490,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 }
 ]
 }
@@ -9517,6 +9517,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "contaminação"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -9528,14 +9535,7 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "defilement"
+"preferred_label": "fazer possuir"
 }
 ]
 }
@@ -9585,18 +9585,18 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "jumento"
 }
 ]
 }
@@ -9634,7 +9634,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Cloak"
+"preferred_label": "capa"
 }
 ]
 }
@@ -9665,7 +9665,7 @@
 "type": "fauna",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Bird"
+"preferred_label": "ave"
 }
 ]
 }
@@ -9696,7 +9696,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 }
 ]
 }
@@ -9792,27 +9792,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Foolish",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Foolish"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Truth"
-},
-{
-"id": "keyterm:PlayTheProstitute",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "play the prostitute"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.375,
@@ -9820,11 +9799,32 @@
 "preferred_label": "Israel"
 },
 {
+"id": "keyterm:PlayTheProstitute",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "prostituir-se"
+},
+{
+"id": "keyterm:Foolish",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "insensato"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "verdade"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 }
 ]
 }
@@ -9924,7 +9924,7 @@
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Dinheiro"
 }
 ]
 }
@@ -10012,39 +10012,11 @@
 "preferred_label": "Petor"
 },
 {
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Amom"
-},
-{
 "id": "group:Ammon",
 "type": "group",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Ammonites"
-},
-{
-"id": "person:Balaam",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Balaão"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "place:Mesopotamia",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Mesopotâmia"
+"preferred_label": "amonitas"
 },
 {
 "id": "deity:Lord",
@@ -10061,11 +10033,39 @@
 "preferred_label": "Egito"
 },
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Moabe"
+},
+{
+"id": "place:Mesopotamia",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Mesopotâmia"
+},
+{
 "id": "person:Beor.2",
 "type": "person",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Beor"
+},
+{
+"id": "person:Balaam",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Balaão"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Amom"
 }
 ]
 }
@@ -10092,13 +10092,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Balaam",
 "type": "person",
 "confidence": 0.6,
@@ -10106,18 +10099,25 @@
 "preferred_label": "Balaão"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "love"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "amor"
 }
 ]
 }
@@ -10171,7 +10171,7 @@
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "pure"
+"preferred_label": "puro"
 }
 ]
 }
@@ -10198,18 +10198,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "holy"
 }
 ]
 }
@@ -10282,6 +10282,20 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "desapossar"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -10289,25 +10303,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "dispossess"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Dinheiro"
 }
 ]
 }
@@ -10338,7 +10338,7 @@
 "type": "keyterm",
 "confidence": 0.7,
 "match_method": "canonical",
-"preferred_label": "make a vow"
+"preferred_label": "fazer um voto"
 },
 {
 "id": "deity:Lord",
@@ -10352,7 +10352,7 @@
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "out of free will"
+"preferred_label": "de livre e espontânea vontade"
 }
 ]
 }
@@ -10406,14 +10406,14 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "favor"
+"preferred_label": "Favor"
 },
 {
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "rolo"
 }
 ]
 }
@@ -10440,6 +10440,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "contaminação"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -10451,21 +10458,14 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "defilement"
+"preferred_label": "fazer possuir"
 },
 {
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "rolo"
 }
 ]
 }
@@ -10496,7 +10496,7 @@
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "exempt"
+"preferred_label": "isento"
 }
 ]
 }
@@ -10577,11 +10577,11 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Levi",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Levi"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Miriam",
@@ -10589,6 +10589,20 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Miriã"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "tribo de Levi"
 },
 {
 "id": "person:Levi.3",
@@ -10602,21 +10616,7 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Infectious Skin Disease"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Egito"
+"preferred_label": "doença infecciosa da pele"
 }
 ]
 }
@@ -10647,7 +10647,7 @@
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 }
 ]
 }
@@ -10674,6 +10674,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -10681,18 +10688,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Cloak"
+"preferred_label": "capa"
 }
 ]
 }
@@ -10765,13 +10765,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.375,
@@ -10783,7 +10776,14 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "comprar"
+"preferred_label": "resgatar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -10810,13 +10810,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -10824,25 +10817,32 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Sickle"
+"preferred_label": "foice"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "oliveira"
 },
 {
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cevada"
 }
 ]
 }
@@ -10873,14 +10873,14 @@
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "to declare guilty"
+"preferred_label": "Declarar culpado"
 },
 {
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "be (or show oneself) just"
+"preferred_label": "Ser (ou mostrar-se) justo"
 }
 ]
 }
@@ -11026,7 +11026,7 @@
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "efa"
 }
 ]
 }
@@ -11057,7 +11057,7 @@
 "type": "place",
 "confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "Ameleque"
+"preferred_label": "Amaleque"
 },
 {
 "id": "deity:Lord",
@@ -11065,20 +11065,6 @@
 "confidence": 0.5,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "fear"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "dispossess"
 },
 {
 "id": "place:Egypt",
@@ -11092,7 +11078,21 @@
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
+"preferred_label": "fazer possuir"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Temor"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "desapossar"
 }
 ]
 }
@@ -11126,39 +11126,39 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "dispossess"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
+"preferred_label": "fazer possuir"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "desapossar"
 },
 {
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Basket"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "cesto"
 },
 {
 "id": "flora:Sorghum",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Sorghum"
+"preferred_label": "sorgo"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "trigo"
 }
 ]
 }
@@ -11208,13 +11208,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.6,
@@ -11229,11 +11222,18 @@
 "preferred_label": "Padã-Arã"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "group:Aramean",
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Arameans"
+"preferred_label": "arameus"
 }
 ]
 }
@@ -11271,14 +11271,14 @@
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Egyptians"
+"preferred_label": "egípcios"
 },
 {
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "work"
+"preferred_label": "trabalho"
 }
 ]
 }
@@ -11339,7 +11339,7 @@
 "type": "group",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Levi"
+"preferred_label": "tribo de Levi"
 },
 {
 "id": "person:Levi.3",
@@ -11349,18 +11349,18 @@
 "preferred_label": "Levi"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
 "id": "flora:Sorghum",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Sorghum"
+"preferred_label": "sorgo"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "trigo"
 }
 ]
 }
@@ -11398,7 +11398,7 @@
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Levi"
+"preferred_label": "tribo de Levi"
 }
 ]
 }
@@ -11425,20 +11425,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:LandFlowingOfMilkAndHoney",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "land flowing of milk and honey"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -11446,11 +11432,25 @@
 "preferred_label": "Israel"
 },
 {
+"id": "keyterm:LandFlowingOfMilkAndHoney",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Terra que mana leite e mel"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "jurar"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "abençoar"
 }
 ]
 }
@@ -11500,25 +11500,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "decree"
+"preferred_label": "Decreto"
 },
 {
 "id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "O Caminho"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -11556,7 +11556,7 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "santo"
 }
 ]
 }
@@ -11671,7 +11671,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "instrução"
 }
 ]
 }
@@ -11709,14 +11709,21 @@
 "type": "keyterm",
 "confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "decree"
+"preferred_label": "Decreto"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Levi"
+"preferred_label": "tribo de Levi"
 },
 {
 "id": "person:Moses",
@@ -11731,13 +11738,6 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Levi"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Israel"
 }
 ]
 }
@@ -11771,88 +11771,32 @@
 "preferred_label": "Monte Gerizim"
 },
 {
-"id": "person:Simeon.5",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Simeão"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
-},
-{
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Benjamim"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Benjamim"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "group:Issachar",
-"type": "group",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Issacar"
+"preferred_label": "Tribo de Benjamim"
 },
 {
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "Tribo de Judá"
 },
 {
 "id": "group:Simeon",
 "type": "group",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Simeão"
+"preferred_label": "tribo de Simeão"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "abençoar"
 },
 {
 "id": "person:Issachar",
@@ -11862,11 +11806,67 @@
 "preferred_label": "Issacar"
 },
 {
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "tribo de Levi"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
 "id": "person:Joseph.10",
 "type": "person",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "José"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Levi"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Rio Jordão"
+},
+{
+"id": "group:Issachar",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "tribo de Issacar"
+},
+{
+"id": "person:Simeon.5",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Simeão"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Benjamim"
 }
 ]
 }
@@ -11920,21 +11920,14 @@
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "utter a curse"
+"preferred_label": "amaldiçoar"
 },
 {
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Craftsman"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "surely!"
+"preferred_label": "artesão"
 },
 {
 "id": "deity:Lord",
@@ -11944,18 +11937,25 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "realia:GravenImage",
-"type": "realia",
-"confidence": 0.54,
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Graven Image"
+"preferred_label": "com certeza!"
 },
 {
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "Imagem de metal fundido"
+},
+{
+"id": "realia:GravenImage",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "imagem esculpida"
 }
 ]
 }
@@ -11982,18 +11982,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "utter a curse"
-},
-{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "surely!"
+"preferred_label": "com certeza!"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "amaldiçoar"
 }
 ]
 }
@@ -12020,25 +12020,25 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "utter a curse"
-},
-{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "surely!"
+"preferred_label": "com certeza!"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "amaldiçoar"
 },
 {
 "id": "keyterm:Exempt",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "exempt"
+"preferred_label": "isento"
 }
 ]
 }
@@ -12065,25 +12065,25 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Curse",
+"id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "utter a curse"
+"preferred_label": "instrução"
 },
 {
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "surely!"
+"preferred_label": "com certeza!"
 },
 {
-"id": "keyterm:Instruction",
+"id": "keyterm:Curse",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "amaldiçoar"
 }
 ]
 }
@@ -12121,7 +12121,7 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
 }
 ]
 }
@@ -12179,32 +12179,32 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Swear",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "jurar"
 },
 {
 "id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "The Way"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "O Caminho"
 },
 {
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "santo"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -12350,7 +12350,7 @@
 "type": "keyterm",
 "confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "hemorrhoid"
+"preferred_label": "tumores"
 },
 {
 "id": "place:Egypt",
@@ -12430,18 +12430,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "provérbio"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "saying"
 }
 ]
 }
@@ -12472,49 +12472,49 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "be enticed to serve"
+"preferred_label": "forçar a servir"
 },
 {
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Locust"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Coriander"
+"preferred_label": "Gafanhoto"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "videira"
 },
 {
 "id": "fauna:Maggot",
 "type": "fauna",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Worm"
+"preferred_label": "verme"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "coentro"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "vinho"
 },
 {
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cevada"
 }
 ]
 }
@@ -12587,6 +12587,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "forçar a servir"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.65,
@@ -12594,18 +12601,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "be enticed to serve"
-},
-{
 "id": "realia:Yoke",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Yoke"
+"preferred_label": "jugo"
 }
 ]
 }
@@ -12643,98 +12643,98 @@
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "be kindly disposed"
-},
-{
-"id": "fauna:Vulture",
-"type": "fauna",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Vulture"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Sorghum"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "ter compaixão"
 },
 {
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "cereal"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "oliveira"
+},
+{
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "abutre"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "rebanho"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "videira"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "bode"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "óleo da unção"
+},
+{
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "sorgo"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "azeite de oliva"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "gado"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "trigo"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Mosto"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "mula"
 }
 ]
 }
@@ -12788,7 +12788,7 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "state of being under siege"
+"preferred_label": "sob cerco"
 }
 ]
 }
@@ -12907,27 +12907,6 @@
 "preferred_label": "Monte Sinai"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -12939,7 +12918,28 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moisés"
 }
 ]
 }
@@ -12973,27 +12973,6 @@
 "preferred_label": "Monte Sinai"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -13005,7 +12984,28 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moabe"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moisés"
 }
 ]
 }
@@ -13089,21 +13089,21 @@
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "vinho"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "videira"
 },
 {
 "id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Cloak"
+"preferred_label": "capa"
 }
 ]
 }
@@ -13134,14 +13134,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "have insight"
+"preferred_label": "ter discernimento"
 },
 {
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
 }
 ]
 }
@@ -13168,18 +13168,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -13206,25 +13206,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Oath",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Oath"
+"preferred_label": "juramento"
 },
 {
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -13274,25 +13274,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Oath",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Oath"
+"preferred_label": "juramento"
 },
 {
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -13373,25 +13373,25 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:Oath",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "peace"
+"preferred_label": "juramento"
 },
 {
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
 },
 {
-"id": "keyterm:Oath",
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Oath"
+"preferred_label": "paz"
 }
 ]
 }
@@ -13418,6 +13418,20 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "perdoar"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "zelo"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -13425,25 +13439,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "forgive"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "ardour"
-},
-{
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "rolo"
 }
 ]
 }
@@ -13616,18 +13616,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "instrução"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Instruction"
 }
 ]
 }
@@ -13708,18 +13708,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "desapossar"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dispossess"
 }
 ]
 }
@@ -13746,25 +13746,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Circumsize.2",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "circuncidar"
 },
 {
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "love"
+"preferred_label": "amor"
 },
 {
-"id": "keyterm:Circumsize.2",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "To Circumsize"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -13876,6 +13876,13 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "instrução"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -13883,18 +13890,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "rolo"
 }
 ]
 }
@@ -13990,39 +13990,39 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Love",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "love"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "SENHOR"
 },
 {
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
 },
 {
 "id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "O Caminho"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Dispossess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "desapossar"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "amor"
 }
 ]
 }
@@ -14076,7 +14076,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
 }
 ]
 }
@@ -14130,21 +14130,14 @@
 "type": "keyterm",
 "confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "To Lead"
+"preferred_label": "guiar"
 },
 {
-"id": "place:Jordan",
-"type": "place",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Jordan River"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Moisés"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Israel",
@@ -14154,11 +14147,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "place:Jordan",
+"type": "place",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Rio Jordão"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Moisés"
 }
 ]
 }
@@ -14196,14 +14196,7 @@
 "type": "keyterm",
 "confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "To Lead"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "guiar"
 },
 {
 "id": "person:Joshua.2",
@@ -14213,11 +14206,18 @@
 "preferred_label": "Josué"
 },
 {
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Rio Jordão"
+},
+{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "desapossar"
 }
 ]
 }
@@ -14244,11 +14244,11 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Dispossess",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "desapossar"
 },
 {
 "id": "person:Joshua.2",
@@ -14258,11 +14258,11 @@
 "preferred_label": "Josué"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -14289,18 +14289,18 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
 "id": "person:Og",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Ogue"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "amorreus"
 },
 {
 "id": "person:Sihon",
@@ -14383,7 +14383,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 }
 ]
 }
@@ -14410,11 +14410,25 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "jurar"
 },
 {
 "id": "person:Joshua.2",
@@ -14429,20 +14443,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moisés"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
 }
 ]
 }
@@ -14480,7 +14480,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 }
 ]
 }
@@ -14507,48 +14507,6 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -14560,14 +14518,56 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribo de Levi"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "arca da aliança"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "instrução"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Levi"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Arca da Aliança"
 }
 ]
 }
@@ -14594,6 +14594,27 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:FeastOfTabernacles",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Festa dos Tabernáculos"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.375,
@@ -14605,28 +14626,7 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:FeastOfTabernacles",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "feast of tabernacles"
+"preferred_label": "instrução"
 }
 ]
 }
@@ -14653,13 +14653,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "fear"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.65,
@@ -14667,25 +14660,32 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "Temor"
+},
+{
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Jordan River"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "Rio Jordão"
 },
 {
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "instrução"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "desapossar"
 }
 ]
 }
@@ -14712,32 +14712,32 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 },
 {
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "desapossar"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Rio Jordão"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -14812,14 +14812,14 @@
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
+"preferred_label": "Tenda do Encontro"
 },
 {
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Tent"
+"preferred_label": "tenda"
 }
 ]
 }
@@ -14846,6 +14846,20 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "aliança"
+},
+{
+"id": "keyterm:PlayTheProstitute",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "prostituir-se"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -14853,25 +14867,11 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moisés"
-},
-{
-"id": "keyterm:PlayTheProstitute",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "play the prostitute"
 }
 ]
 }
@@ -14975,32 +14975,32 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "jurar"
 },
 {
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
 },
 {
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "be enticed to serve"
+"preferred_label": "forçar a servir"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -15031,7 +15031,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "jurar"
 }
 ]
 }
@@ -15062,7 +15062,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "jurar"
 }
 ]
 }
@@ -15138,7 +15138,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "jurar"
 },
 {
 "id": "person:Joshua.2",
@@ -15190,7 +15190,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "jurar"
 },
 {
 "id": "person:Joshua.2",
@@ -15238,39 +15238,11 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Complete"
+"preferred_label": "íntegro"
 },
 {
 "id": "deity:Lord",
@@ -15280,25 +15252,53 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Levi"
+},
+{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "tribo de Levi"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "arca da aliança"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "instrução"
 },
 {
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "rolo"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Arca da Aliança"
 }
 ]
 }
@@ -15325,13 +15325,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.65,
@@ -15343,21 +15336,35 @@
 "type": "keyterm",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "arca da aliança"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.59,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Arca da Aliança"
 },
 {
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Levi"
+"preferred_label": "tribo de Levi"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "instrução"
 },
 {
 "id": "person:Moses",
@@ -15374,18 +15381,11 @@
 "preferred_label": "Levi"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "rolo"
 }
 ]
 }
@@ -15412,25 +15412,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "rebelar-se"
 },
 {
 "id": "keyterm:Stubborn",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "literally: stiff, necked"
+"preferred_label": "obstinado"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "rebel"
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -15480,18 +15480,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "O Caminho"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "The Way"
 }
 ]
 }
@@ -15518,18 +15518,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "O Caminho"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "The Way"
 }
 ]
 }
@@ -15590,7 +15590,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Complete"
+"preferred_label": "íntegro"
 },
 {
 "id": "person:Moses",
@@ -15701,25 +15701,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Complete"
+"preferred_label": "íntegro"
 },
 {
 "id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "O Caminho"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -15746,25 +15746,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Complete"
+"preferred_label": "íntegro"
 },
 {
 "id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "The Way"
+"preferred_label": "O Caminho"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -15857,7 +15857,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "perceive"
+"preferred_label": "perceber"
 }
 ]
 }
@@ -15907,13 +15907,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -15921,11 +15914,18 @@
 "preferred_label": "Israel"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
+"preferred_label": "fazer possuir"
 }
 ]
 }
@@ -15956,7 +15956,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "perceive"
+"preferred_label": "perceber"
 }
 ]
 }
@@ -15987,7 +15987,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "perceive"
+"preferred_label": "perceber"
 }
 ]
 }
@@ -16018,7 +16018,7 @@
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Vulture"
+"preferred_label": "abutre"
 }
 ]
 }
@@ -16080,7 +16080,14 @@
 "type": "keyterm",
 "confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "Be Zealous"
+"preferred_label": "ter zelo"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "salvação"
 },
 {
 "id": "person:Israel",
@@ -16088,13 +16095,6 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Israel"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "salvation"
 }
 ]
 }
@@ -16163,7 +16163,7 @@
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Faithfulness"
+"preferred_label": "Fidelidade"
 }
 ]
 }
@@ -16271,14 +16271,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Understanding"
+"preferred_label": "entendimento"
 },
 {
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "counsel"
+"preferred_label": "conselho"
 }
 ]
 }
@@ -16497,13 +16497,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Seek Refugue"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.375,
@@ -16511,25 +16504,32 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "buscar refúgio"
+},
+{
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "slaughtering"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "sacrifício de animais"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "videira"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "vinho"
 }
 ]
 }
@@ -16591,14 +16591,14 @@
 "type": "keyterm",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "lift up (one's hand), to swear"
+"preferred_label": "fazer um juramento"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bear the consequences of"
+"preferred_label": "levar a culpa"
 }
 ]
 }
@@ -16629,7 +16629,7 @@
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "espada"
 }
 ]
 }
@@ -16660,21 +16660,21 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "arrow"
-},
-{
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "flecha"
 },
 {
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Arrow"
+"preferred_label": "flecha"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "espada"
 }
 ]
 }
@@ -16705,7 +16705,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "forgive"
+"preferred_label": "perdoar"
 }
 ]
 }
@@ -16736,7 +16736,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "forgive"
+"preferred_label": "perdoar"
 }
 ]
 }
@@ -16763,6 +16763,13 @@
 "resource": [],
 "acai": [
 {
+"id": "person:Nun",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Num"
+},
+{
 "id": "person:Joshua.2",
 "type": "person",
 "confidence": 0.6,
@@ -16775,13 +16782,6 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moisés"
-},
-{
-"id": "person:Nun",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Num"
 }
 ]
 }
@@ -16812,7 +16812,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "instrução"
 }
 ]
 }
@@ -16846,6 +16846,27 @@
 "preferred_label": "Monte Nebo"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Moabe"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.375,
@@ -16858,27 +16879,6 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Canaã"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
 },
 {
 "id": "place:Jericho",
@@ -16950,11 +16950,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Unfaithful",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "be unfaithful"
+"preferred_label": "santo"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "place:HorMount",
@@ -16964,18 +16971,11 @@
 "preferred_label": "Monte Hor"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "holy"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "ser infiel"
 },
 {
 "id": "place:Meribah.2",
@@ -16996,7 +16996,7 @@
 "type": "place",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Deserto de Zin"
+"preferred_label": "Deserto de Zim"
 }
 ]
 }
@@ -17054,25 +17054,25 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Moses",
@@ -17133,7 +17133,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "santo"
 }
 ]
 }
@@ -17164,7 +17164,7 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "santo"
 }
 ]
 }
@@ -17198,18 +17198,18 @@
 "preferred_label": "Israel"
 },
 {
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "instrução"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Moisés"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Instruction"
 }
 ]
 }
@@ -17267,18 +17267,18 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Reuben",
-"type": "group",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Rúben"
-},
-{
 "id": "person:Reuben",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Rúben"
+},
+{
+"id": "group:Reuben",
+"type": "group",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "tribo de Rúben"
 }
 ]
 }
@@ -17305,13 +17305,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.6,
@@ -17323,7 +17316,14 @@
 "type": "group",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "Tribo de Judá"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -17423,14 +17423,14 @@
 "type": "flora",
 "confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Bush"
+"preferred_label": "arbusto"
 },
 {
 "id": "keyterm:Delight",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "delight"
+"preferred_label": "prazer"
 },
 {
 "id": "person:Joseph.10",
@@ -17521,14 +17521,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Leão"
 }
 ]
 }
@@ -17555,18 +17555,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 }
 ]
 }
@@ -17597,6 +17597,13 @@
 "type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
+"preferred_label": "tribo de Dã"
+},
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
 "preferred_label": "Dã"
 },
 {
@@ -17607,18 +17614,11 @@
 "preferred_label": "Basã"
 },
 {
-"id": "place:Dan",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Dã"
-},
-{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Leão"
 }
 ]
 }
@@ -17656,28 +17656,7 @@
 "type": "group",
 "confidence": 0.8,
 "match_method": "canonical",
-"preferred_label": "Naftali"
-},
-{
-"id": "keyterm:Delight",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "delight"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "dispossess"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "tribo de Naftali"
 },
 {
 "id": "deity:Lord",
@@ -17685,6 +17664,27 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
+"id": "keyterm:Delight",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "prazer"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "desapossar"
 }
 ]
 }
@@ -17718,32 +17718,32 @@
 "preferred_label": "Aser"
 },
 {
-"id": "group:Asher",
-"type": "group",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Aser"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
+},
+{
+"id": "group:Asher",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "tribo de Aser"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "óleo da unção"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "azeite de oliva"
 }
 ]
 }
@@ -17816,6 +17816,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -17827,28 +17834,21 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Shield"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "escudo"
 },
 {
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "escudo pequeno"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "espada"
 }
 ]
 }
@@ -17903,25 +17903,11 @@
 "preferred_label": "Pisga"
 },
 {
-"id": "group:Dan",
+"id": "group:Judah",
 "type": "group",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Dã"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Gileade"
-},
-{
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Neguebe"
+"preferred_label": "Tribo de Judá"
 },
 {
 "id": "person:Manasseh",
@@ -17931,34 +17917,6 @@
 "preferred_label": "Manassés"
 },
 {
-"id": "place:MoabPlains",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Campinas de Moabe"
-},
-{
-"id": "group:Manasseh",
-"type": "group",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Manassés"
-},
-{
-"id": "place:Dan",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Dã"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
 "id": "person:Naphtali",
 "type": "person",
 "confidence": 0.3,
@@ -17966,18 +17924,11 @@
 "preferred_label": "Naftali"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Manasseh",
+"type": "group",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "place:Zoar",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Zoar"
+"preferred_label": "tribo de Manassés"
 },
 {
 "id": "person:Ephraim",
@@ -17987,18 +17938,32 @@
 "preferred_label": "Efraim"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "place:Zoar",
+"type": "place",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "Zoar"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "place:Dan",
+"type": "place",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Efraim"
+"preferred_label": "Dã"
+},
+{
+"id": "place:MoabPlains",
+"type": "place",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Campinas de Moabe"
+},
+{
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Neguebe"
 },
 {
 "id": "person:Judah.4",
@@ -18008,18 +17973,53 @@
 "preferred_label": "Judá"
 },
 {
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "tribo de Efraim"
+},
+{
 "id": "group:Naphtali",
 "type": "group",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Naftali"
+"preferred_label": "tribo de Naftali"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "tribo de Dã"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Gileade"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Moisés"
 },
 {
 "id": "flora:DatePalm",
 "type": "flora",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "Date Palm"
+"preferred_label": "tamareira"
 }
 ]
 }
@@ -18046,13 +18046,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "swear"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.6,
@@ -18065,6 +18058,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "jurar"
 },
 {
 "id": "person:Abraham",
@@ -18159,13 +18159,6 @@
 "resource": [],
 "acai": [
 {
-"id": "place:MoabPlains",
-"type": "place",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Campinas de Moabe"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
@@ -18177,7 +18170,14 @@
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Complete"
+"preferred_label": "íntegro"
+},
+{
+"id": "place:MoabPlains",
+"type": "place",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Campinas de Moabe"
 },
 {
 "id": "person:Moses",
@@ -18218,6 +18218,20 @@
 "preferred_label": "Num"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
 "id": "person:Joshua.2",
 "type": "person",
 "confidence": 0.6,
@@ -18232,25 +18246,11 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.6,
 "match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "habilidade"
 }
 ]
 }
@@ -18277,18 +18277,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Moses",
@@ -18329,13 +18329,6 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5,
@@ -18343,25 +18336,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "fear"
-},
-{
-"id": "keyterm:MiraculousSign",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Miraculous Sign"
-},
-{
-"id": "person:Pharaoh.6",
+"id": "person:Israel",
 "type": "person",
+"confidence": 0.5,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Faraó"
+"preferred_label": "símbolo"
 },
 {
 "id": "place:Egypt",
@@ -18371,11 +18357,25 @@
 "preferred_label": "Egito"
 },
 {
-"id": "keyterm:Example",
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Faraó"
+},
+{
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "example"
+"preferred_label": "Temor"
+},
+{
+"id": "keyterm:MiraculousSign",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "sinal miraculoso"
 }
 ]
 }
